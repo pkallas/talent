@@ -11,17 +11,16 @@ class LearnerGallery extends Component {
   }
 
   render() {
-   // console.log('learn geallery', this.props.learner.payload.filter(getProjects => getProjects.projects))
     return (
       <div>
-        <CollectionPage data={this.props.learner} projects={this.getProjects(this.props.learner)}/>
+        <CollectionPage data={this.props.learners} projects={this.getProjects(this.props.learners)}/>
       </div>
     )
   }
 }
 
 function mapStateToProps({ learner }) {
-  return { learner: learner.payload }
+  return { learners: learner.payload }
 }
 
 export default connect(mapStateToProps)(LearnerGallery)
