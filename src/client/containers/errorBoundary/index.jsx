@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { errorOccurred } from '../../actions';
+import axios from 'axios';
 
 class ErrorBoundary extends Component {
   componentDidCatch(error, info) {
     this.props.errorOccurred(error);
-    console.error(error, info);
+    return axios.post('/api/error', {
+      error: error,
+      info: info,
+    })
+    .catch(error => console.log(error));
   }
 
   render() {

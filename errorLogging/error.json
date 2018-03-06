@@ -1,0 +1,11 @@
+{
+  "error": {},
+  "info": {
+    "componentStack": "\n    in LearnerGallery (created by Connect(LearnerGallery))\n    in Connect(LearnerGallery) (created by Route)\n    in Route (created by App)\n    in Switch (created by App)\n    in div (created by Loading)\n    in Loading (created by Connect(Loading))\n    in Connect(Loading) (created by App)\n    in ErrorBoundary (created by Connect(ErrorBoundary))\n    in Connect(ErrorBoundary) (created by App)\n    in div (created by App)\n    in App\n    in Router (created by BrowserRouter)\n    in BrowserRouter\n    in Provider"
+  }
+}{
+  "error": {},
+  "info": {
+    "componentStack": "\n    in LearnerGallery (created by Connect(LearnerGallery))\n    in Connect(LearnerGallery) (created by Route)\n    in Route (created by App)\n    in Switch (created by App)\n    in div (created by Loading)\n    in Loading (created by Connect(Loading))\n    in Connect(Loading) (created by App)\n    in ErrorBoundary (created by Connect(ErrorBoundary))\n    in Connect(ErrorBoundary) (created by App)\n    in div (created by App)\n    in App\n    in Router (created by BrowserRouter)\n    in BrowserRouter\n    in Provider"
+  }
+}
